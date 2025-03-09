@@ -1,0 +1,63 @@
+table{
+    width: 70%;
+   margin: 200px 200px;
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    
+}
+ 
+ th{
+    padding: 20px;
+    text-align: center;
+    background-color:rgb(233, 79, 228);
+    
+}
+
+ 
+
+.rh{
+    border: 3px solid black;
+    padding: 4px;
+}
+
+.r1 td{
+    
+    padding: 20px;
+
+}
+.r2 td{
+    border: 3px solid black ;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.r3 td{
+    border: 3px solid black ;
+    padding: 20px ;
+    background-color: antiquewhite;
+}
+
+.r4 td{
+    border: 3px solid black ;
+    padding: 30px ;
+}
+
+.r5 td{
+    border: 3px solid black ;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.r6 td{
+    border: 3px solid black ;
+    padding: 20px ;
+}
+
+
+td{
+    width: 20px;
+}
+
+tbody tr{
+    text-align: center;
+}

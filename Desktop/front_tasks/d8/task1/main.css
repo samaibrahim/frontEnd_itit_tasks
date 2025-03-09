@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(246, 205, 249);
+}
+
+img{
+    margin: 50px 250px;
+    height: 200px;  
+}
+
+#btn{
+   display: flex;
+   justify-content: center;
+   gap: 200px;
+}
+
+button{
+    background-color:rgb(230, 143, 236);
+    border-radius: 5px ;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f3f4f6;
+        }
+        .form-container {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container input[type="radio"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background: #5cb85c;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="mobile">Mobile</label>
+            <input type="tel" id="mobile" placeholder="Enter your mobile number" required>
+            
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female" required> Female
+            
+            <label for="address">Address</label>
+            <textarea id="address" rows="3" placeholder="Enter your address" required></textarea>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script>
+        // Timeout functionality
+        var timeout = setTimeout(() => {
+            alert("You have been inactive for 30 seconds. Please enter your data.");
+            window.location.href = 'index.html';
+        }, 30000);
+
+        var form = document.getElementById('signup-form');
+     
+
+        // Handle form submission
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var name = document.getElementById('name').value;
+            /* var email = document.getElementById('email').value;
+            var mobile = document.getElementById('mobile').value;
+            var gender = document.querySelector('input[name="gender"]:checked').value;
+            var address = document.getElementById('address').value; */
+
+            
+
+            // Redirect to home
+            window.location.href = `index.html?name=${name}`;
+        });
+    </script>
+</body>
+</html>

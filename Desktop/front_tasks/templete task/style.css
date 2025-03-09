@@ -1,0 +1,250 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: "Karma";
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 10px 50px;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.navbar div{
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.my-food{
+    color: brown;
+}
+
+
+
+
+/* section1*/
+
+.container{
+    padding: 50px 100px 0px 100px;
+
+}
+
+.first-section{
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 50px;
+}
+.head1{
+    font-size:30px;
+    text-align:center;
+
+}
+
+p{
+    padding-top: 20px ;
+    font-size: 20px;
+    
+}
+
+
+/* section2 */
+
+.second-section{
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.img-card{
+   width: 300px;
+}
+img{
+  width:100%
+}
+.head2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    padding-top: 20px ;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* numbers bar */
+.numbers-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.numbers-bar ul li{  
+    font-size: 15px;   
+}
+.numbers-bar ul li a:hover{
+    color:white;
+    background-color: black;
+    
+}
+
+.numbers-bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+
+}
+.numbers-bar a i{
+    color: black; 
+    padding: 5px 20px;
+}
+.numbers-bar a i:hover{
+    color:white;
+    background-color: black;
+}
+
+
+.numbers-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+}
+
+/*third-section*/
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third-section .title1{
+    font-weight:lighter;
+}
+
+.title1{
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
+.third-section img{
+    width: 70%;
+    padding-bottom:40px ;
+}
+p.text{
+    padding-bottom: 100px;
+}
+/* footer */
+/* section1 */
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    gap: 50px;
+}
+.section1 p{
+    text-align: left;
+    font-weight :lighter;
+}
+.section1 .s1head{
+    font-weight :lighter;
+}
+.section1 p a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* section2 */
+
+
+.s2head {
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.ul-img {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+.ul-img li {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Vertically center content */
+    margin-bottom: 20px; /* Space between items */
+}
+
+.ul-img img {
+    width: 50px; /* Adjust the size of the image */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.ul-img span {
+    display: block; /* Ensures text stays below each other */
+}
+
+.ul-img span:first-of-type {
+    font-weight: lighter; 
+    font-size: 16px;
+}
+
+.ul-img span:last-of-type {
+    font-size: 14px;
+    color: gray; /* Lighter color for the subtitle */
+}
+
+hr {
+    border: 0.5px solid #ddd; /* Light horizontal line */
+    margin: 10px 0;
+}
+
+.ul-img .s2img1:hover{
+    background-color: gray;
+}
+.ul-img .s2img1{
+    padding: 20px;
+}
+.ul-img .s2img2:hover{
+    background-color: gray;
+}
+.ul-img .s2img2{
+    padding: 20px;
+}
+
+/* section3 */
+.section3 {
+    text-align: left;
+}
+
+.s3-head {
+    margin-bottom: 20px;
+}
+
+.section3 p {
+    display: flex;
+    flex-wrap: wrap; /* Allows spans to break into multiple rows */
+    gap: 5px; /* Adds space between the spans */
+}
+
+.section3 span {
+    display: inline-block;
+    background-color: #444; /* Default background color for all tags */
+    color: white;
+    padding: 5px 15px; /* Padding inside each block */
+}
+
+.section3 span:hover {
+    background-color: #666; /* Hover effect changes background color */
+}
+

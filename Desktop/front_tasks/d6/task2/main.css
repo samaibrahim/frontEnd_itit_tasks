@@ -1,0 +1,39 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid rgb(29, 29, 239);
+width: 100%;
+}
+tbody{
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background: url("./pexels-lethangmr-15838266.jpg");
+  background-size: cover;
+}
+td,
+th{
+  padding: 20px;
+}
+table {
+  background-color:  rgb(255, 255, 255);
+  width: 50%;
+  font-size: 26px;
+  color: rgb(29, 29, 239);
+  margin-top: 50px;
+  opacity: 0.7;
+}
+.hide{
+  display:none ;
+}
+.show{
+  display:block;
+}

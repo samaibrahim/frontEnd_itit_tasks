@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container #block{
+    background-color: black;
+    width: 20%;
+   height: 400px;
+}
